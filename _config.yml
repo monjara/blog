@@ -105,3 +105,12 @@ deploy:
   repo: git@github.com:monjara/blog.git
   branch: main
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
+
+
+# Search
+search:
+  path: search.xml
+  field: all
+  content: true
+  format: html
+

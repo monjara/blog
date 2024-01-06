@@ -49,13 +49,10 @@ document.addEventListener('DOMContentLoaded', () => {
     if (keywords.length === 1 && keywords[0] === '') {
       // no input
       container.innerHTML = `<div class="search-result-message" ></div>`
-    } else if (resultItems.length === 0) {
-      // no result
-      container.innerHTML = `<div class="search-result-message" >No result found</div>`;
     } else {
       // display result(s)
       container.innerHTML = `
-      <div class="search-result-message">${resultItems.length} result(s) found</div>
+      <div class="search-result-message">検索結果: ${resultItems.length} 件</div>
       <ul class="search-result-list">${resultItems.map(result => result.item).join('<div class="h-line-secondary"></div>')}
       </ul>`;
     }
