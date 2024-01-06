@@ -1,4 +1,4 @@
-English | [简体中文](README-CN.md)
+English
 
 ![cover](https://clio-space-1300725494.cos.ap-guangzhou.myqcloud.com/frame/featured_img/hexo_cover.jpg)
 
