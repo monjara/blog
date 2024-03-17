@@ -4,5 +4,5 @@
 # new post
 
 ```
-pnpm run blog_title
+pnpm run new blog_title
 ```
