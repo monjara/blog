@@ -10,8 +10,8 @@
                                     <a href="<%-url_for(tag.path)%>">
                                         <%=tag.name%>
                                     </a>
-                                </span>   
-                            <% }) %>           
+                                </span>
+                            <% }) %>
                         <% } %>
                     </div>
                     <div class="post-title">
@@ -30,7 +30,7 @@
                 <div class="post-img">
                 <% if (post.featured_image) {%>
                     <img src="<%= url_for(post.featured_image)%>" alt="featured_image">
-                <% } %>  
+                <% } %>
                 </div>
             </div>
             <div class="h-line-secondary"></div>

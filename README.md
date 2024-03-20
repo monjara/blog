@@ -1,5 +1,5 @@
 # blog
-[site](https://mon-j.net/)
+[site](https://blog.mon-j.net/)
 
 # new post
 

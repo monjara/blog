@@ -2,7 +2,7 @@
     <div class="profile-image">
         <% if (theme.profile.image) {%>
             <img src="<%= url_for(theme.profile.image)%>" alt="featured_image">
-        <% } %>  
+        <% } %>
     </div>
     <div class="post-content profile-content">
         <div class="profile-title">
@@ -13,9 +13,9 @@
         </div>
         <% Object.keys(theme.profile.links).forEach(key => { %>
             <div class="profile-link">
-                <a href="<%= url_for(theme.profile.links[key])%>"><%=key%></a> 
-            </div>           
+                <a href="<%= url_for(theme.profile.links[key])%>"><%=key%></a>
+            </div>
         <% }); %>
     </div>
-    
+
 </div>

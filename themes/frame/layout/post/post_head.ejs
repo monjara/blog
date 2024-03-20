@@ -7,18 +7,18 @@
                         <a href="<%-url_for(tag.path)%>">
                             <%=tag.name%>
                         </a>
-                    </span>    
-                <% }) %>           
+                    </span>
+                <% }) %>
             <% } %>
         </div>
         <div class="post-title">
-            
+
             <% if (page.title) {%>
                 <%= page.title %>
             <% } else {%>
                 *Untitled
             <% } %>
-            
+
         </div>
         <span class="post-date">
             <%- date(page.date, theme.date_format) %>
@@ -29,6 +29,6 @@
             <img src="<%= url_for(page.featured_image)%>" alt="featured_image">
         <% } else { %>
             <div class="h-line-primary"></div>
-        <% } %>      
+        <% } %>
     </div>
 </div>
